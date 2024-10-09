@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+#banner_image {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -10;
+    background-position: left;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 18vh;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 10;
+    /* border: 1px solid; */
+}
+
+#page1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#page1 #right {
+    background-color: rgba(0, 0, 0, 0.26);
+    height: 100vh;
+    position: relative;
+    padding-top: 30vh;
+    width: 29vw;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.green {
+    color: rgb(190, 252, 58);
+    line-height: 28px;
+    text-shadow: 2px 2px 1px black;
+}
+
+.blue {
+    line-height: 27px;
+    text-shadow: 2px 2px 1px black;
+}
+
+.yellow {
+    color: rgb(250, 247, 13);
+    text-shadow: 2px 2px 1px black;
+}
+
+#right .text{
+    font-size: 4.5vh;
+    padding-left: 3vw;
+    margin-bottom: 2vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#left h1{
+    margin-top: 40vh;
+    font-size: 8vh;
+    color: aliceblue;
+    padding-left: 6vw;
+    text-shadow: 2px 2px 1px black;
+}
+
+#left p{
+    text-shadow: 2px 2px 1px black;
+    /* margin-top: 40vh; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.5vh;
+    color: aliceblue;
+    padding-left: 6vw;
+}
+
+nav #left{
+    padding-left: 3vh;
+}
